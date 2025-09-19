@@ -30,7 +30,7 @@ The details are explained below.
 
 ## About
 
-The DB is an implementation of a Log Structured Merge Tree (LSMTree). It uses the [augmented log](https://github.com/chrislessard/augmented_log) as its basis, making one key change: it guarantees that segments are sorted by key. It also provides various optimizations to help with reads.
+The DB is an implementation of a Log Structured Merge Tree (LSMTree). It uses the augmented log as its basis, making one key change: it guarantees that segments are sorted by key. It also provides various optimizations to help with reads.
 
 ### Main operations
 
